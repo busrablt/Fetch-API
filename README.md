@@ -12,3 +12,14 @@ Fetch API ile yapabildiğimiz şey bir veri sunucudan geldikten sonra işlem yap
 *`Request` ,bir kaynak talebini temsil eder.
 
 *`Response`,bir isteğe verilen yanıtı temsil eder.
+
+## Temel Fetch Kullanımı 
+Fetch API’ yi kullanmak için fetch metoduna istek yapacağımız url’ i parametre olarak vermek gerekiyor.
+```
+fetch(url)
+```
+fetch() metodundan sonra, metodun sonuna then() promise metodunu ekleriz:
+``.then(function() {
+
+})
+```
