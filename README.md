@@ -19,7 +19,8 @@ Fetch API’ yi kullanmak için fetch metoduna istek yapacağımız url’ i par
 fetch(url)
 ```
 fetch() metodundan sonra, metodun sonuna then() promise metodunu ekleriz:
-``.then(function() {
+```
+.then(function() {
 
 })
 ```
