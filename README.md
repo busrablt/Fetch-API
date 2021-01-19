@@ -36,6 +36,4 @@ fetch("https://jsonplaceholder.typicode.com/todos")
     });
 })
 ```
-```
-<p> this </p>
-```
+
