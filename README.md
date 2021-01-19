@@ -40,6 +40,9 @@ fetch("https://jsonplaceholder.typicode.com/todos")
 
 ## Kaynaklar
 [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
 [w3schools.com](https://www.w3schools.com/js/js_api_fetch.asp)
+
 [medium.com](https://medium.com/@ayabellazreg/fetch-api-for-beginners-265561404598)
+
 [ethemkeskin.com](https://www.etemkeskin.com/index.php/2021/01/19/javascript-fetch-api-kullanimi/)
