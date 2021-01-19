@@ -24,3 +24,15 @@ fetch() metodundan sonra, metodun sonuna then() promise metodunu ekleriz:
 
 })
 ```
+
+Örneğin “https://jsonplaceholder.typicode.com/todos” adresine get isteğinde bulunalım.
+```
+//// GET İsteği
+fetch("https://jsonplaceholder.typicode.com/todos")
+  .then(response => response.json())//parse json data
+  .then(function(todos){
+    todos.forEach(todo => {
+        console.log(todo.title);//Başlıkları console' a yazdırma
+    });
+})
+```
